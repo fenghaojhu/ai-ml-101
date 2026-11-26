@@ -2,3 +2,6 @@
 
 /* A quieter, diagram-led visual for the course introduction. */
 .art{background:linear-gradient(145deg,#dcecf7,#d3e6f4);overflow:hidden}.art-grid{position:absolute;inset:0;background-image:linear-gradient(#a9c6d8 1px,transparent 1px),linear-gradient(90deg,#a9c6d8 1px,transparent 1px);background-size:37px 37px;opacity:.22;mask-image:linear-gradient(to right,transparent,#000 35%)}.network{position:absolute;width:min(88%,420px);height:auto;top:48%;left:50%;transform:translate(-50%,-50%)}.art-kicker,.art-index{position:absolute;font-size:9px;font-weight:700;letter-spacing:1.5px;color:#7797ad}.art-kicker{top:33px;right:35px}.art-index{bottom:33px;left:35px}.art-label{color:#6e90a6;right:35px;bottom:31px;text-align:right}.art-label strong{color:#315f7d}@media(max-width:600px){.network{width:250px;top:46%}.art-kicker{top:10px;right:20px;font-size:8px}.art-index{bottom:15px;left:20px;font-size:8px}.art-label{right:20px;bottom:13px;font-size:8px}}
+
+@media(max-width:900px){.app{grid-template-columns:minmax(0,1fr)}.sidebar,main{min-width:0}.sidebar nav{max-width:100%}}
+
